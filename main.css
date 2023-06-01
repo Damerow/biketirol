@@ -44,6 +44,10 @@ article {
     border: 1px solid gray;
 }
 
+#pulldown {
+    margin-bottom: 0.3em;
+}
+
 #profile {
     border: 1px solid gray;
     margin-top: 0.3em;
