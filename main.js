@@ -86,3 +86,5 @@ pulldown.onchange = function(evt) {
     //console.log(url);
     window.location.href = url;
 }
+
+//window.location.href = url; implementiert eine URL in das Dropdown
