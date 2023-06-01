@@ -68,4 +68,9 @@ let controlElevation = L.control.elevation({
 
 controlElevation.load("data/etappe32.gpx")
 
-console.log(ETAPPEN)
+// Pulldown für Navigation
+let pulldown = document.querySelector("#pulldown");
+for (let etappe of ETAPPEN) {
+    console.log (etappe);
+    pulldown.innerHTML += `<option value="${etappe.user}">${etappe.nr}: ${etappe.etappe}</option>`
+}
